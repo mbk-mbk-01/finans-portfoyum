@@ -1,0 +1,2 @@
+# finans-portfoyum
+finans portfoyum
