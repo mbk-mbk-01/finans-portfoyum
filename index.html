@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finans Portföy Takibi</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>📈 Yatırım Portföyüm</h1>
+        
+        <div class="ekleme-formu">
+            <input type="text" id="hisseSembol" placeholder="Hisse Sembolü">
+            
+            <input type="number" id="hisseAdet" placeholder="Adet">
+            
+            <button onclick="hisseEkle()">Ekle</button>
+        </div>
+
+        <table id="portfoyTablosu">
+            <thead>
+                <tr>
+                    <th>Hisse</th>
+                    <th>Adet</th>
+                    <th>Anlık Fiyat</th>
+                    <th>Toplam Değer</th>
+                </tr>
+            </thead>
+            <tbody id="hisseListesi"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

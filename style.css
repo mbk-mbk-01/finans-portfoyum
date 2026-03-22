@@ -1,0 +1,63 @@
+/* Genel sayfa ayarları */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f3; /* Gözü yormayan açık gri arka plan */
+    display: flex;
+    justify-content: center; /* İçeriği yatayda ortalar */
+    padding-top: 50px;
+}
+
+/* Ana çerçeve ayarları */
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px; /* Köşeleri yumuşatır */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08); /* Hafif gölge efekti */
+    width: 90%;
+    max-width: 800px;
+}
+
+/* Giriş kutuları ve butonun yan yana dizilmesi */
+.ekleme-formu {
+    display: flex;
+    gap: 10px; /* Elemanlar arası boşluk */
+    margin-bottom: 25px;
+}
+
+/* Input (giriş) kutularının tasarımı */
+input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none; /* Tıklandığında çıkan mavi çerçeveyi kaldırır */
+    flex: 1; /* Kutuların satırı doldurmasını sağlar */
+}
+
+/* Butonun tasarımı */
+button {
+    background-color: #27ae60; /* Yeşil renk (finansı temsil eder) */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer; /* Üstüne gelince el işareti çıkar */
+    font-weight: bold;
+}
+
+/* Tablo tasarımı */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Çizgileri tek bir çizgi haline getirir */
+}
+
+th {
+    text-align: left;
+    background-color: #34495e; /* Koyu lacivert başlık */
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee; /* Satırlar arası ince çizgi */
+}
